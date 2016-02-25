@@ -1,0 +1,96 @@
+.background-color {
+    background-image: url(leather_1.png); 
+
+}
+
+h1 {
+    font-family: Courier;
+    font-size: 50px;
+    color:darkcyan;
+    text-align: center;
+    
+}
+
+h3 {
+    text-decoration: bold;
+    font-size: 20px;
+}
+
+h4 {
+    text-decoration: bold;
+    font-size: 20px;
+    text-align: left;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+    color:black;
+    
+}
+
+.tab-pages {
+    color:black;
+    font-size: 30px;
+    font-family: fantasy;
+    text-align: center;
+    
+    /* text-decoration-color:aqua; */    
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color:black;
+}
+
+a {
+    color:black;
+   /* text-decoration: none;
+    text-decoration-line: none; */
+}
+
+a:hover {
+    background-color: chocolate;
+    
+}
+
+ .img-history {
+    /* border: solid;
+    border-margin: 5px; */
+    width: 100px;
+    height: 100px; 
+}
+
+
+.howTo {
+    font-family: sans-serif;
+}
+
+.ingredients {
+    font-family:Verdana;
+    text-decoration-color:brown;
+    
+    
+}
+
+.img-links {
+    font-size: 27;
+    color: black;
+    text-align: center;
+
+}
+
+/*.background-color {
+    background-color: burlywood;
+} */
+ 
+
+ /* history > h1 {
+    text-decoration: bold;
+    font-size: 15px;
+    text-align: left;
+    
+} */
