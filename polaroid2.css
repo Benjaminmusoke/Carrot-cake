@@ -1,0 +1,27 @@
+  .polaroid-img {
+      width: 15%;
+      background-color: white;
+      box-shadow:0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.19);
+      margin-bottom: 25px;
+      position: absolute;
+
+  }
+
+.polaroid-img2 {
+    width: 200px;
+    height: 200px;
+}
+
+
+body {
+    margin: 25px;
+}
+html {
+    background-image: url("https://image-gr.s3.envato.com/files/89984818/pv_590.jpg");
+}
+
+h2 {
+    background-color: darkgoldenrod;
+
+}
+

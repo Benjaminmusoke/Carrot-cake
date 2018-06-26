@@ -1,0 +1,215 @@
+nav {
+    list-style-type: none;
+    paddding: 0;
+    margin: 0;
+    background-color: aqua;
+    overflow: hidden;
+    font-size: 20px;
+    border-right: 1px solid #bbb;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 16px 16px 16px;
+    text-decoration: none;
+}
+
+.directory-main {
+    float: left;
+    background-color: darkgoldenrod;
+}
+
+html {
+    overflow: scroll;
+    width: 100%;
+    height: 100%;
+    background-image: url("background.jpg");
+}
+
+.first-img {
+    background-image: url("//cdn.jamieoliver.com/recipe-database/oldImages/430_575/10_1_1438271360.jpg");
+}
+
+.directory {
+    background-color: chocolate;
+    text-decoration: none;
+
+}
+
+.directory-history {
+    background-color: gold;
+    text-decoration: none;
+
+}
+.white-box {
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.19);
+    background-color: white;
+    width: 100%;
+    position: relative;
+    padding-left: 20px;
+    font-family: "Baskerville Old Face";
+    font-size: 18px;
+}
+
+h2 {
+    font-family: "AR BERKLEY";
+}
+
+.white-box2 {
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.19);
+    background-color: aliceblue;
+    width: 100%;
+    position: relative;
+    padding-left: 20px;
+    font-size: 18px;
+
+}
+
+.white-box3 {
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.19);
+    background-color: aliceblue;
+    width: 30%;
+    padding-left: 20px;
+    height: 30%;
+    font-family: "Century Schoolbook";
+
+}
+
+.white-box4 {
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.19);
+    background-color: aliceblue;
+    width: 100%;
+    position: relative;
+    padding-left: 20px;
+    font-size: 18px;
+
+}
+
+
+.links-color {
+    background-color: aliceblue;
+    padding-left: 20px;
+}
+
+.prep_info {
+    display:block;
+    border-radius: 3em;
+    background-color:#bfff00;
+    opacity: 0.8;
+    margin-left: 4em;
+    margin-top: 2em;
+    margin-bottom: -0.6em;
+    text-align: center;
+    width: 25%;
+    padding: 0.2em;
+    float: right;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#time, .portion, legend{
+    font-family: Helvetica;
+    font-size: 1em;
+    font-weight: bold;
+    color: #009966;
+}
+
+.ingredients{
+    float: left;
+    text-align: left;
+    border-radius: 3em;
+    opacity: 0.7;
+    background-color: #39CCCC;
+    border: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 4.3em;
+    height: 32em;
+    width: 35%;
+}
+
+ .ingredients > img {
+    float: top;
+    margin-left: 3em;
+    width: 20em;
+    height: 20em;
+    border-radius: 60%;
+}
+
+.ingredients > h2 {
+    text-align: center;
+    color: #DDDDDD;
+    font-weight: bolder;
+    font-size:1.5em;
+
+}
+
+.ingredients > ul > li{
+    margin-right: 4em;
+    margin-left: 1.5em;
+    margin-top: 1.5em;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 0.8em;
+
+}
+
+.rating {
+    float: initial;
+    border-color: #001f3f;
+    border-radius: 1em;
+    margin-left: 17em;
+    background-color: #DDDDDD;
+    opacity: 0.8;
+}
+
+.rating:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+    clip:rect(0,0,0,0);
+}
+
+.rating:not(:checked) > label {
+    float:right;
+    width:1em;
+    padding:0 .1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:200%;
+    line-height:1.2;
+    color:#ddd;
+    text-shadow:1px 1px #bbb, 2px 2px #666, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+.rating:not(:checked) > label:before {
+    content: '☆ ';
+}
+
+.rating > input:checked ~ label {
+    color: #f70;
+    text-shadow:1px 1px #c60, 2px 2px #940, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+    color: gold;
+    text-shadow:1px 1px goldenrod, 2px 2px #B57340, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+.rating > input:checked + label:hover,
+.rating > input:checked + label:hover ~ label,
+.rating > input:checked ~ label:hover,
+.rating > input:checked ~ label:hover ~ label,
+.rating > label:hover ~ input:checked ~ label {
+    color: #ea0;
+    text-shadow:1px 1px goldenrod, 2px 2px #B57340, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+.rating > label:active {
+    position:relative;
+    top:2px;
+    left:2px;
+}

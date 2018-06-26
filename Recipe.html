@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Recipe</title>
+    <link rel="stylesheet" type="text/css" href="Main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+<body>
+<nav>
+    <a href="index.html" class="directory-main">Carrot cake</a>
+    <a href="History.html" class="directory-main">History</a>
+    <a href="Recipe.html" class="directory-main">Recipe</a>
+</nav>
+<div class="white-box4">
+<div class="prep_info">
+
+    <p id="time">Preparation time: 50 mins <br><br> Portions:<br>
+        <input type="text" class="portion" value="1"/><br>Cake
+        <input type="hidden" id="previousPortion" value="1"/>
+    </p>
+
+    <br>
+
+</div>
+
+    <div class="ingredients">
+
+        <h2>Ingredients</h2>
+
+        <ul class="ingredient">
+            <li class="serving"><span class ="amount">250</span> g unsalted butter, softened</li>
+            <li class="serving"><span class="amount">250</span> g light brown soft sugar</li>
+            <li class="serving"><span class="amount">5</span> large free-range eggs</li>
+            <li class="serving"><span class="amount">1</span> orange, zest and juice off</li>
+            <li class="serving"><span class="amount">1</span> slightly heaped teaspoon baking powder</li>
+            <li class="serving"><span class="amount">100</span> g shelled walnuts, chopped, plus a handful for serving</li>
+            <li class="serving"><span class="amount">1</span> heaped teaspoon ground cinnamon</li>
+            <li class="serving"><span class="amount">1</span> pinch ground cloves)</li>
+            <li class="serving"><span class="amount">1</span> pinch ground nutmeg</li>
+            <li class="serving"><span class="amount">0.5</span> teaspoon ground ginger</li>
+            <li class="serving"><span class="amount">250</span> g carrots, peeled and coarsely grated sea salt</li>
+        </ul>
+    </div>
+
+    <br>
+
+    <script type="text/javascript" src="ajax.js" >
+    </script>
+    <script type="text/javascript" src="Main2.js" >
+    </script>
+    <script type="text/javascript" src="GetVotesRating.js" >
+    </script>
+
+    <fieldset class="rating">
+        <legend>Rate this recipe: <br></legend>
+        <input type="radio" id="star5" name="rating" value="5" /><label for="star5" title="Excellent!">5 stars</label>
+        <input type="radio" id="star4" name="rating" value="4" /><label for="star4" title="Very good">4 stars</label>
+        <input type="radio" id="star3" name="rating" value="3" /><label for="star3" title="OK">3 stars</label>
+        <input type="radio" id="star2" name="rating" value="2" /><label for="star2" title="Slightly bad">2 stars</label>
+        <input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="Bad">1 star</label>
+    </fieldset>
+
+    <div id="messageDiv"></div>
+
+     <div class="white-box5">
+      <h4>Method and directions</h4>
+
+    <ol>
+        <li>Preheat the oven to 180 degrees celsius / 350 degrees Fahrenheit gas.</li>
+        <p></p>
+        <li>Grease and line a 22cm-square cake tin or a round equivalent with a greaseproof paper.</li>
+        <p></p>
+        <li>Beat the butter and sugar together by hand or in a food processor until pale and fluffy.</li>
+        <p></p>
+        <li>Beat in the egg yolks one by one, and add the orange zest and juice.</li>
+        <p></p>
+        <li> Stir in the sifted flour and baking powder, and add<br> the ground almonds, walnuts, spices and grated
+            carrot and mix together well.
+        </li>
+        <p></p>
+        <li>In a seperate bowl, whisk the egg whites with a pinch of salt<br> unitl stiff, then gently
+            fold them into the mix. </li>
+        <p></p>
+        <li>Scoop the mixture into the prepared cake tin and cook<br> in the preheated oven for about 50 minutes
+            until golden and risen.</li>
+        <p></p>
+        <li>You can check to see if the cake is cooked by poking a cocktail stick into it.</li>
+        <p></p>
+        <li>Remove it after 5 seconds and if it comes out clean the cake is cooked;<br> if slightly sticky, it needs
+            a bit longer, so put it back in the oven.</li>
+        <p></p>
+        <li>Leave the cake to cool in the tin for 10 minutes, then turn it out<br> on to a rack and rest for at
+            least an hour</li>
+    </ol>
+
+</div>
+</div>
+
+<script src="Main2.js"></script>
+
+</body>
+</html>
